@@ -1,0 +1,44 @@
+body {
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    background: url(../imagens/Emblema.jpg) center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    font-family: 'Alegreya SC';
+    line-height: 1.5;
+    }
+
+main {
+    background: #000000d9;
+    border-radius: 5px;
+}
+
+#desmond{
+    float: right;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    color: cyan;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: cyan;
+}

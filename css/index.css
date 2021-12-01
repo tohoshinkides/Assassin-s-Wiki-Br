@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+    background: url(../imagens/Emblema.jpg) center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    line-height: 1.5;
+}
+
+main {
+    background: #000000d9;
+    border-radius: 5px;
+}
+
+#menu-horizontal{
+    background-color: black;
+}
+
+#menu-horizontal ul{
+    background-color: black  ;
+    max-width:800px;
+    height: 50px;    
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+#menu-horizontal ul li{
+    display: inline;
+    padding-left: 40px;
+
+}
+
+#menu-horizontal ul li a{
+    font-size: 20px;
+    color: rgba(22, 63, 199, 0.945);
+    display: inline;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px;
+    display: inline-block;
+    
+
+}
+
+#menu-horizontal ul li a:hover{
+    background-color:royalblue;
+    color: white;
+
+}
+
+#ezio{
+    float: right;
+}
+
+#brotherhood{
+    float: right;
+}
+
+#revelations{
+    float: right;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    color: cyan;
+}
